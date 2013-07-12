@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PatelNikunjHwk6</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splashscreen">Splash_Screen</string>
+    <string name="config">Configuration Preferences</string>
+    <string name="retrive">Retrive assignment list from server</string>
+    <string name="manage">Manage Assignments</string>
+    <string name="emailadd">The email address identifier</string>
+    <string name="serverURL">The Home base server URL</string>
+    <string name="savesettings">Save Settings</string>
+
+</resources>

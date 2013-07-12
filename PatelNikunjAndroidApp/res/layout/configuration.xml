@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/emailadd" />
+
+    <EditText
+        android:id="@+id/EmailEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="text|textEmailAddress" />
+
+
+    <TextView
+        android:id="@+id/URLTextView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:text="@string/serverURL" />
+
+    <EditText
+        android:id="@+id/URLEditText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/SaveSettingsbtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/savesettings" />
+
+</LinearLayout>
